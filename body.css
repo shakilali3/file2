@@ -1,0 +1,143 @@
+p,span,body{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Rubik', sans-serif;
+}
+
+ul{
+    padding: 0;
+}
+
+img {
+	width: auto;
+	height: 140px;
+	border-radius: 5px;
+}
+
+.section {
+	background-color: #fff;
+	height: auto;
+	width: auto;
+	box-sizing: border-box;
+	padding: 22px;
+	margin-top: 35px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+}
+.main-sectiom ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+.section-1 {
+	display: flex;
+	width: 65%;
+}
+.reating-item ul{
+    list-style: none;
+    padding: 0;
+}
+.reating-item ul li{
+    display: inline-block;
+}
+.reating-item ul li a {
+	color: #f4c150;
+	font-size: 14px;
+}
+.section-1 .item-2 {
+	margin-left: 15px;
+}
+.section-1 .item-2 h5 a {
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	text-decoration: none;
+	transition: .4s;
+}
+.section-1 .item-2 h5 a:hover{
+	color: #09dca4;
+}
+.section-1 .item-2 .sub-titel {
+	font-size: 14px;
+	color: #757575;
+}
+
+.reating .reating-item ul li:last-child a {
+	color: #dedfe0;
+}
+.section-1 .item-2 .reating span {
+	margin-left: 8px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+
+.dental {
+	margin: 8px 0px;
+}
+.dental a img {
+	width: 20px;
+	margin-right: 5px;
+	height: auto;
+}
+#custom-img-s img{
+	width: 16px;
+}
+.dental-t {
+	font-size: 14px;
+	font-weight: 400;
+	color: #20c0f3;
+}
+
+.location {
+	margin-top: 5px;
+}
+.location a {
+	font-size: 14px;
+	color: #757575;
+}
+.location h6 {
+	display: inline-block;
+	margin-left: 5px;
+	color: #757575;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+
+
+.section-2 {
+	width: 35%;
+}
+.section-2 .address {
+	display: block;
+	width: 50%;
+}
+.section-2 .address span {
+	font-size: 14px;
+	font-weight: 300;
+	color: #626366;
+}
+.section-2 .button {
+	line-height: 9;
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+.section-2 .button a {
+	text-decoration: none;
+	color: #20c0f3;
+	background: #fff;
+	padding: 10px 35px;
+	border-radius: 5px;
+	border: 2px solid #20c0f3;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	transition: .4s;
+}
+.section-2 .button a:hover {
+	background-color: #20c0f3;
+	color: #fff;
+}
